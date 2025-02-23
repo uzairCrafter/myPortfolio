@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uzair Shah - Full Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="light">
+    <!-- Navigation -->
+<nav class="navbar">
+    <div class="container">
+        <a href="#" class="logo">Uzair<span>Shah</span></a>
+        <!-- Hamburger Menu Button -->
+        <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </button>
+        <!-- Navigation Links -->
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <!-- Theme Toggle -->
+        <div class="theme-toggle" id="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </div>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animated-text">Full Stack Developer</h1>
+                <p class="hero-subtitle">Building scalable and user-friendly digital experiences</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View Work</a>
+                    <a href="C:\Users\dell\Downloads\uzair shah AI Specialist.pdf" class="btn btn-secondary">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I'm a passionate Full Stack Developer with 3+ years of experience in building modern web applications. I specialize in the JavaScript ecosystem, including React, Node.js, and modern frontend technologies. I also have expertise in cloud platforms like AWS and containerization tools like Docker.</p>
+                    <div class="skills">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Python</span>
+                        <span>MongoDB</span>
+                        <span>Java</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="uzair shah.jpg" alt="Uzair Shah" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="" alt="E-commerce Platform">
+                    </div>
+                    <h3>E-commerce Platform</h3>
+                    <p>A full-stack e-commerce solution built with React, Node.js, and MongoDB.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="portfolio-project.png" alt="Portfolio Website">
+                    </div>
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive and modern portfolio website built with HTML, CSS, and JavaScript.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                    </div>
+                </div>
+                <!-- Add more project cards -->
+            </div>
+        </div>
+    </section>
+
+   <!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> uzaircrafter@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +92 314 1811560</p>
+                <!-- WhatsApp Button -->
+                <a href="https://wa.me/923141811560?text=Hello%20Uzair,%20I%20found%20your%20portfolio%20and%20wanted%20to%20connect." class="btn btn-whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Message Me on WhatsApp
+                </a>
+                <!-- Social Links -->
+<div class="social-links">
+    <a href="https://github.com/uzairCrafter" target="_blank" class="social-link">
+        <i class="fab fa-github"></i>
+    </a>
+    <a href="https://linkedin.com/in/uzair-shah-a779b7322" target="_blank" class="social-link">
+        <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://instagram.com/syed__uzair__1" target="_blank" class="social-link">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://youtube.com/theCodingCrafts" target="_blank" class="social-link">
+        <i class="fab fa-youtube"></i>
+    </a>
+    
+</div>
+            </div>
+            <!-- Email Form (Using Formspree) -->
+            <form action="https://formspree.io/f/your-formspree-endpoint" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Message" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message via Email</button>
+            </form>
+        </div>
+    </div>
+</section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Uzair Shah. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
